@@ -24,6 +24,9 @@ export function Welcome({ message }: { message: string }) {
 						<p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
 							What&apos;s next?
 						</p>
+						<p className="text-sm text-gray-500 dark:text-gray-400 text-center italic">
+							kujjun
+						</p>
 						<ul>
 							{resources.map(({ href, text, icon }) => (
 								<li key={href}>
