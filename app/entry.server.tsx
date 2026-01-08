@@ -12,7 +12,7 @@ export default async function handleRequest(
 ) {
 	let shellRendered = false;
 	
-	// リクエストからユーザーエージェントを取得（ボット検出に使用）
+	// Get user-agent from request (used for bot detection)
 	const userAgent = request.headers.get("user-agent");
 
 	const body = await renderToReadableStream(
