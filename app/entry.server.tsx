@@ -11,6 +11,8 @@ export default async function handleRequest(
 	_loadContext: AppLoadContext,
 ) {
 	let shellRendered = false;
+	
+	// リクエストからユーザーエージェントを取得（ボット検出に使用）
 	const userAgent = request.headers.get("user-agent");
 
 	const body = await renderToReadableStream(
