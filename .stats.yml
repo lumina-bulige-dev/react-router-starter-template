@@ -1,0 +1,4 @@
+configured_endpoints: 1
+template_url: https://github.com/cloudflare/templates/tree/main/react-router-starter-template
+template_hash: 6166a38
+config_hash: 067cdf1fe7bee433bc2413b564da4630
