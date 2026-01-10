@@ -3,6 +3,6 @@ configured_endpoints: 1
 # URL reference to the original template source
 template_url: https://github.com/cloudflare/templates/tree/main/react-router-starter-template
 # Git commit hash reference for tracking template version
-template_hash: 6166a38
+template_hash: 6166a3806d1b815a10429da657cd19109e1365bd
 # MD5 hash of all dependencies (dependencies + devDependencies) configuration
 config_hash: 067cdf1fe7bee433bc2413b564da4630
