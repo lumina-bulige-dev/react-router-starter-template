@@ -11,6 +11,8 @@ export default async function handleRequest(
 	_loadContext: AppLoadContext,
 ) {
 	let shellRendered = false;
+	
+	// Get user-agent from request (used for bot detection)
 	const userAgent = request.headers.get("user-agent");
 
 	const body = await renderToReadableStream(
